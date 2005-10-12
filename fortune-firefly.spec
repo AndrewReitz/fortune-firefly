@@ -1,5 +1,5 @@
 Name:		fortune-firefly
-Version:	1.9
+Version:	2.0
 Release:        3
 Summary:	Quotes from the TV series "Firefly"
 
@@ -48,6 +48,11 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+
+* Wed Oct 12 2005 Karen Pease <meme@daughtersoftiresias.org> - 2.0
+- Someone who wanted to remain anonymous graciously offered his time to
+  correct Serenity quotes using a Visual Companion, which contains the
+  shooting script.  TZOO-foo nee, doncoat!
 
 * Tue Oct 11 2005 Karen Pease <meme@daughtersoftiresias.org> - 1.9.2 and 1.9.3
 - Upped the release to fix a broken CVS tag
