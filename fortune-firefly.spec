@@ -1,5 +1,5 @@
 Name:		fortune-firefly
-Version:	2.0.1
+Version:	2.1.0
 Release:        1%{?dist}
 Summary:	Quotes from the TV series "Firefly"
 
@@ -49,11 +49,17 @@ rm -rf $RPM_BUILD_ROOT
 
 %changelog
 
+* Mon Jan 08 2006 Karen Pease <meme@daughtersoftiresias.org> - 2.1.0
+- Incorporated some great organization and labeling by John Bianchi (John.Bianchi@usa.net)
+- Added quotes from unfilmed episode, "Dead or Alive"
+- Added quotes from deleted scenes
+- Added quotes from outtakes
+
 * Mon Dec 05 2005 Karen Pease <meme@daughtersoftiresias.org> - 2.0.1
 - Incorporated some typo corrections from Zack Elan (zackelan@gmail.com)
 - Changed the versioning style
 
-* Wed Oct 12 2005 Karen Pease <meme@daughtersoftiresias.org> - 2.0.3
+* Wed Oct 12 2005 Karen Pease <meme@daughtersoftiresias.org> - 2.0
 - Fixed some quotes, added one more.
 
 * Wed Oct 12 2005 Karen Pease <meme@daughtersoftiresias.org> - 2.0
