@@ -1,5 +1,5 @@
 Name:		fortune-firefly
-Version:	2.1.0
+Version:	2.1.1
 Release:        1%{?dist}
 Summary:	Quotes from the TV series "Firefly"
 
@@ -48,6 +48,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+
+* Fri Apr 07 2006 Karen Pease <meme@daughtersoftiresias.org> - 2.1.1
+- Manually merged in some fixes from Robert Mohr (mohr.42@osu.edu)
 
 * Mon Jan 08 2006 Karen Pease <meme@daughtersoftiresias.org> - 2.1.0
 - Incorporated some great organization and labeling by John Bianchi (John.Bianchi@usa.net)
