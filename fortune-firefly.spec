@@ -49,7 +49,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %changelog
 
-* Mon May 07 2006 Karen Pease <meme@daughtersoftiresias.org> - 2.1.2
+* Mon May 07 2007 Karen Pease <meme@daughtersoftiresias.org> - 2.1.2
 - Spelling fixes
 
 * Fri Sep 15 2006 Karen Pease <meme@daughtersoftiresias.org> - 2.1.1.2
