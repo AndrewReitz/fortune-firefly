@@ -1,6 +1,6 @@
 Name:		fortune-firefly
 Version:	2.1.2
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:	Quotes from the TV series "Firefly"
 
 Group:		Amusements/Games
@@ -48,6 +48,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+
+* Mon May 07 2007 Karen Pease <meme@daughtersoftiresias.org> - 2.1.2.2
+- Upping tag to sync builds.
 
 * Mon May 07 2007 Karen Pease <meme@daughtersoftiresias.org> - 2.1.2
 - Spelling fixes
