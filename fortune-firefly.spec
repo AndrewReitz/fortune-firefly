@@ -1,10 +1,11 @@
 Name:		fortune-firefly
 Version:	2.1.2
-Release:        5%{?dist}
+Release:        6%{?dist}
 Summary:	Quotes from the TV series "Firefly"
 
 Group:		Amusements/Games
-License:	GPL
+# No version specified, only attribution is spec file, but maintainer is upstream.
+License:	GPL+
 URL:		http://www.daughtersoftiresias.org/progs/firefly/
 #Source0:	http://www.daughtersoftiresias.org/progs/firefly/%{name}-%{version}.tar.bz2
 Source1:	http://www.daughtersoftiresias.org/progs/firefly/fortune-firefly-%{version}/firefly
@@ -48,6 +49,8 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Fri Jul 18 2008 Tom "spot" Callaway <tcallawa@redhat.com> - 2.1.2-6
+- fix license tag
 
 * Sun Jan 20 2008 Karen Pease <meme@daughtersoftiresias.org> - 2.1.2.5
 - Upping tag to sync builds.
