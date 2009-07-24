@@ -1,6 +1,6 @@
 Name:		fortune-firefly
 Version:	2.1.2
-Release:        7%{?dist}
+Release:        8%{?dist}
 Summary:	Quotes from the TV series "Firefly"
 
 Group:		Amusements/Games
@@ -49,6 +49,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Fri Jul 24 2009 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 2.1.2-8
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_12_Mass_Rebuild
+
 * Tue Feb 24 2009 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 2.1.2-7
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_11_Mass_Rebuild
 
